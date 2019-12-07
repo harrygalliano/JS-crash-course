@@ -86,7 +86,7 @@ alert(firstName + ' is a ' + age + ' year old '
   /*****
    * Operator precedence 
    */
-
+   /*
    var now = 2019;
    var yearJohn = 1989;
    var fullAge = 19;
@@ -136,6 +136,7 @@ alert(firstName + ' is a ' + age + ' year old '
     4. Print a string to the console containing the variable from step three. (
         something like "Is mark's BMI higher than John's? true/false.")
                 */
+    /*
     var markHeight, markWeight, johnHeight, johnWeight, markBMI, johnBMI, greaterBMI;
     markHeight = 1.8;
     markWeight = 74;
@@ -150,6 +151,10 @@ alert(firstName + ' is a ' + age + ' year old '
 
     greaterBMI = markBMI > johnBMI;
     console.log('Is marks BMI higher than Johns? ', greaterBMI);
+
+    */
+
+
 
     
 
