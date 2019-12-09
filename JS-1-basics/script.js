@@ -158,6 +158,7 @@ alert(firstName + ' is a ' + age + ' year old '
      * If / else statements
      */
 
+     /*
      var firstName = 'John';
      var civilStatus = 'single';
 
@@ -190,8 +191,26 @@ alert(firstName + ' is a ' + age + ' year old '
 
     }
 
+    */
    // greaterBMI = markBMI > johnBMI;
    // console.log('Is marks BMI higher than Johns? ', greaterBMI);
+
+   /*****
+    * Boolean logic
+    */
+
+    var firstName = 'John';
+    var age = 21 ; 
+
+    if (age < 13 ) {
+        console.log( firstName + ' is a boy.');
+    } else if ( age > 13 &&  age < 20 ) { //between 13 and 20
+        console.log( firstName + ' is a teenager')
+    } else if (age >= 20 && age < 30) {
+        console.log(firstName + ' is a young man'); 
+    }else {
+        console.log(firstName + ' is a man.');
+    }
 
 
 
