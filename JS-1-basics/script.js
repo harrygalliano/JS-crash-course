@@ -154,6 +154,47 @@ alert(firstName + ' is a ' + age + ' year old '
 
     */
 
+    /*******
+     * If / else statements
+     */
+
+     var firstName = 'John';
+     var civilStatus = 'single';
+
+     if (civilStatus === 'married') {
+         console.log(firstName + ' is married!');
+     } else {
+         console.log( firstName + ' will hopefully marry soon :)' );
+     }
+
+     var isMarried = true ;
+     if (isMarried) {
+        console.log(firstName + ' is married!');
+    } else {
+        console.log( firstName + ' will hopefully marry soon :)' );
+    }
+
+    var markHeight, markWeight, johnHeight, johnWeight, markBMI, johnBMI, greaterBMI;
+    markHeight = 1.8;
+    markWeight = 78;
+    johnHeight = 1.85;
+    johnWeight = 165;
+
+    markBMI = markWeight / (markHeight * markHeight);
+    johnBMI = johnWeight / (johnHeight * johnHeight);
+
+    if (markBMI > johnBMI ) {
+        console.log ('Mark\'s BMI is greater than John\'s.')
+    } else { 
+        console.log('John\'s BMI is greater than Mark\'s.')
+
+    }
+
+   // greaterBMI = markBMI > johnBMI;
+   // console.log('Is marks BMI higher than Johns? ', greaterBMI);
+
+
+
 
 
     
